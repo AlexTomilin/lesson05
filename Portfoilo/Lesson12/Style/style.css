@@ -1,0 +1,32 @@
+.body{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
+    background-color: cadetblue;
+    text-align: center;
+    align-content: center;
+}
+.container{
+    width: 100%;
+}
+.main{
+    align-content: center;
+    width: 100%;
+}
+.main-inner{
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.left{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 10px;
+    font-weight: 800;
+    color: whitesmoke;
+    display: block;
+    border-color: purple;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Montserrat:ital,wght@1,500&display=swap');
+
+body{
+    background-color: azure;
+    background: linear-gradient(80deg,
+    rgba(2, 79, 245, 0.409) 20%,
+    rgba(32, 233, 223,0.18668089564892) 40%
+    rgba(0, 252, 84,0.18668089564892) 100%);
+    color: rgb(40,132,60);
+
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+}
+
+td {
+    border: black;
+    border-width: 5px;
+    border-style: solid ;
+}
+th {
+    border: black;
+    border-width: 5px;
+    border-style: solid ;
+}

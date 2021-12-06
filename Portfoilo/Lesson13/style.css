@@ -1,0 +1,51 @@
+ol::before {
+    color: orange;
+    width: 25px;
+    height: 20px;
+    font-size: 30px;
+    content: "Псевдоклассы";
+}
+ol {
+    background-color: whitesmoke;
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+    border: 4px solid rgb(190 190 190);
+}
+ol li:nth-child(2), ol li:nth-child(4), ol li:nth-child(6) {
+	background: skyblue;
+}
+ol li:nth-child(1), ol li:nth-child(3), ol li:nth-child(5) {
+	background: yellow;
+}
+ol li{
+    font-size: 18px;
+	width: 29px;
+	background: #fbfbfb;
+}
+
+
+ul::before {
+    color: orange;
+    width: 25px;
+    height: 20px;
+    font-size: 30px;
+    content: "Псевдоклассы2";
+}
+ul {
+    background-color: whitesmoke;
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+    border: 4px solid rgb(190 190 190);
+}
+ul > li:nth-child(4n+1), ul li:nth-child(4n+2) {
+	background: skyblue;
+}
+
+ul li{
+    font-size: 18px;
+	width: 29px;
+	background: #fbfbfb;
+}
+

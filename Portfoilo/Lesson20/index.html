@@ -1,0 +1,156 @@
+<!-- <!doctype html> 
+<title>Example</title> 
+<style> 
+body {  
+  display: grid; 
+  grid-template-areas:  
+    "header header header" 
+    "nav article ads" 
+    "footer footer footer"; 
+  /* grid-template-rows: 80px 1fr 70px;   
+  grid-template-columns: 20% 1fr 15%; 
+  grid-row-gap: 10px; 
+  grid-column-gap: 10px;  */
+  height: 100vh; 
+  margin: 0; 
+  }   
+@media all and (max-width: 575px) { 
+  body {  
+    grid-template-areas:  
+      "header" 
+      "article" 
+      "ads" 
+      "nav" 
+      "footer"; 
+    /* grid-template-rows: 80px 1fr 70px 1fr 70px;   
+    grid-template-columns: 1fr;  */
+ } 
+} 
+header, footer, article, nav, div { 
+  padding: 1.2em; 
+  background: gold; 
+  } 
+#pageHeader { 
+  grid-area: header; 
+  grid-template-rows: 80px ;   
+  grid-template-columns: 20% 1fr 15%; 
+  grid-row-gap: 10px; 
+  grid-column-gap: 10px; 
+  } 
+#pageFooter { 
+  grid-area: footer;
+  grid-template-rows: 10px; 
+  grid-template-columns: 20px; 
+  grid-row-gap: 10px; 
+  grid-column-gap: 10px;  
+  } 
+#mainArticle {  
+  grid-area: article;   
+  grid-template-rows: 50px ;   
+  grid-template-columns: 20px; 
+  grid-row-gap: 10px; 
+  grid-column-gap: 10px;     
+  } 
+#mainNav {  
+  grid-area: nav;  
+  grid-template-rows: 30px ;   
+  grid-template-columns: 20px; 
+  grid-row-gap: 10px; 
+  grid-column-gap: 10px; 
+  } 
+#siteAds {  
+  grid-area: ads;
+  grid-template-rows: 20px ;   
+  grid-template-columns: 20px; 
+  grid-row-gap: 10px; 
+  grid-column-gap: 10px;   
+  }  
+</style> 
+<body> 
+  <header id="pageHeader">Header</header> 
+  <article id="mainArticle">Article</article> 
+  <nav id="mainNav">Nav</nav> 
+  <div id="siteAds">Ads</div> 
+  <footer id="pageFooter">Footer</footer> 
+</body> -->
+
+
+ 
+ 
+<!doctype html> 
+<title>Example</title> 
+<style> 
+body {  
+  display: grid; 
+  grid-template-areas:  
+    "header nav article" 
+    "header nav ads" 
+    "header footer footer"; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  grid-template-columns: 50% 25% 25%; 
+  grid-gap: 10px; 
+  height: 100vh; 
+  margin: 0; 
+  } 
+  @media (max-width: 700px) {
+    .col {
+        width: 50%;
+    }
+}
+header, footer, article, nav, div { 
+  padding: 20px; 
+}
+header {
+    background: green;
+}
+nav {
+    background: greenyellow;
+}
+article {
+    background: red;
+}
+ads {
+    background: orange;
+    
+}
+footer {
+    background: goldenrod;
+    
+}
+
+#pageHeader { 
+  grid-area: header; 
+} 
+#pageFooter { 
+  grid-area: footer; 
+} 
+#mainArticle {  
+  grid-area: article;       
+  } 
+#mainNav {  
+  grid-area: nav;  
+  } 
+#siteAds {  
+  grid-area: ads;  
+  } 
+</style> 
+<body> 
+  <header id="pageHeader">Header
+      <h1>Likewise, constant quantitative growth and the scope of our activity plays an important role in the formation of a personnel training system, meets urgent needs.</h1>
+  </header> 
+  <article id="mainArticle">Article
+      <h1>
+        On the other hand, the framework and place of training of personnel contributes to the preparation and implementation of the development model.</h1>
+  </article> 
+  <nav id="mainNav">Nav
+    <h1>
+        The significance of these issues is so obvious that consultation with a broad asset plays an important role in shaping new proposals.</h1>
+  </nav> 
+  <ads id="siteAds">Ads
+    <h1>Everyday practice shows that the implementation of the planned targets largely determines the creation of a development model.</h1>
+  </ads> 
+  <footer id="pageFooter">Footer
+      <h1>
+        If you have any interesting suggestions, please contact! Web-Boss studio is always ready to solve any problem.</h1>
+  </footer> 
+</body>
