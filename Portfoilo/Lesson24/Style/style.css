@@ -1,0 +1,149 @@
+.container{
+    width: 100%;
+    max-width: 1440px;
+}
+.header-logo{
+    width: 131px;
+    height: 72px;
+    left: 100px;
+    top: 17px;
+}
+.header-inner{
+    width: 100%;
+}
+.header-top{
+    display: flex;
+    width: 100%;
+}
+.header-logo{
+    width: 130px;
+    margin-right: 130px;
+}
+.header-lang{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+}
+.lang{
+    font-size: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #1F1F1F;
+    margin-right: 230px;
+}
+.header-cash{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+}
+.money{
+    font-size: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #1F1F1F;
+    margin-right: 130px;
+}
+.header-social{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+}
+.networks{
+    width: 30px;
+    margin-right: 130px;
+}
+.header-number{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 25%;
+}
+.number1{
+    font-size: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #1F1F1F;
+
+}
+.number{
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #1F1F1F;
+}
+.header-img{
+    width: 20px;
+    
+}
+.Tyru{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    border: black 1px solid;
+}
+.color{
+    width: 100px;
+    height: 75px;
+    background-color: red;
+}
+.kalendar-text{
+    width: 145px;
+    height: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    text-align: center;
+    color: #373737;
+}
+.Kalendar{
+    width: 55px;
+    height: 55px;
+    background-color: red;
+    padding: 20px;
+}
+.Kalendar1{
+    width: 55px;
+    height: 55px;
+    background-color: green;
+    padding: 20px;
+}
+.pic {
+    width: 20px;
+    height: 20px;
+}
+.Tyru1{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    border: black 1px solid;
+}
+.header-bottom{
+    display: flex;
+    width: 100%;
+}
+.pic1{
+    width: 20px;
+    height: 20px;
+}
+.text1{
+    font-size: medium;
+    flex-direction: row;
+    display: flex;
+    margin-left: 25px;
+}
+.island{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
