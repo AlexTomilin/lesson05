@@ -140,10 +140,303 @@
     font-size: medium;
     flex-direction: row;
     display: flex;
+    width: 100%;
     margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .island{
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 100%;
+}
+.Price{
+    position: absolute;
+    left: 100px;
+    top: 280px;
+    font-style: normal;
+    border: #ffffff 1px solid;
+    color: #ffffff;
+}
+.text3{
+    position: absolute;
+    width: 725px;
+    height: 102px;
+    left: 85px;
+    top: 365px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.more-details{
+    position: absolute;
+    width: 350px;
+    height: 102px;
+    left: 100px;
+    top: 500px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border: #ffffff 1px solid;
+    border-radius: 2px;
+}
+.Tour-operator{
+    display: flex;
+    flex-direction: column;
+}
+.Operator{
+    position: absolute;
+    width: 704px;
+    color: #1D1D1D;
+    left: 100px;
+}
+.travel{
+    position: absolute;
+    width: 704px;
+    color: #1D1D1D;
+    left: 100px;
+    top: 850px;
+    font-size: 20px;
+}
+.Offer{
+    position: absolute;
+    color: #969696;
+    top: 900px;
+    left: 100px;
+    font-size: 15px;
+    border: black 2px solid;
+    background: #000000;
+}
+.Consultation {
+    position: absolute;
+    left: 548px;
+    top: 900px;
+    font-style: normal;
+    font-size: 16px;
+    color: #969696;
+    border: #969696 1px solid;
+}
+.icons1{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 900px;
+    top: 800px;
+    font-style: normal;
+    font-size: 16px;
+    color: #969696;
+    border: #969696 4px dashed;
+    border-radius: 50px;
+}
+.text-icons1{
+    position: absolute;
+    left: 950px;
+    top: 780px;
+    font-style: normal;
+    font-size: 16px;
+    color: #969696;
+}
+.icons2{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 900px;
+    top: 950px;
+    font-style: normal;
+    font-size: 16px;
+    color: #969696;
+    border: #969696 4px dashed;
+    border-radius: 50px;
+}
+.icons3{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 900px;
+    top: 880px;
+    font-style: normal;
+    font-size: 16px;
+    color: #969696;
+    border: #969696 4px dashed;
+    border-radius: 50px;
+}
+.text-icons2{
+    position: absolute;
+    left: 950px;
+    top: 935px;
+    font-style: normal;
+    font-size: 16px;
+    color: #969696;
+}
+.text-icons3{
+    position: absolute;
+    left: 950px;
+    top: 865px;
+    font-style: normal;
+    font-size: 16px;
+    color: #969696;
+}
+.Actal-tours{
+    background: whitesmoke;
+    width: 1440px;
+    height: 300px;
+}
+.Actal-tours1{
+    position: absolute;
+    font-size: 35px;
+    top: 1000px;
+    left: 100px;
+}
+.All-tours{
+    position: absolute;
+    font-size: 20px;
+    top: 1045px;
+    left: 1000px;
+}
+.pic2{
+    position: absolute;
+    top: 1200px;
+    left: 200px;
+}
+.pic3{
+    position: absolute;
+    top: 1200px;
+    left: 600px;
+}
+.pic4{
+    position: absolute;
+    top: 1200px;
+    left: 1000px;
+}
+.text-pic2{
+    position: absolute;
+    top: 1450px;
+    left: 200px;
+    background-color: whitesmoke;
+}
+.Teck1{
+    font-size: 35px;
+}
+.Teck2{
+    font-size: 21px;
+}
+.Teck3{
+    font-size: 20px;
+    color: red;
+}
+.text-pic3{
+    position: absolute;
+    top: 1450px;
+    left: 600px;
+    background-color: whitesmoke;
+}
+.Tecl1{
+    font-size: 20px;
+}
+.Tecl2{
+    font-size: 12px;
+}
+.Tecl3{
+    font-size: 20px;
+    color: red;
+}
+.TecI1{
+    font-size: 20px;
+}
+.TecI2{
+    font-size: 12px;
+}
+.TecI3{
+    font-size: 20px;
+    color: red;
+}
+.text-pic4{
+    position: absolute;
+    top: 1450px;
+    left: 1000px;
+    background-color: whitesmoke;
+}
+.footer-text{
+    position: absolute;
+    top: 1650px;
+    left: 100px;
+    width: 400px;
+}
+.footer-text1{
+    position: absolute;
+    top: 1650px;
+    left: 950px;
+    width: 400px;
+}
+.Email{
+    border: black 1px solid;
+    border-radius: 3px;
+    font-size: 20px; 
+    position: absolute;
+    top: 1750px;
+    left: 100px;
+    width: 400px;
+}
+.footer-pic1{
+    position: absolute;
+    top: 1770px;
+    left: 550px;
+}
+.footer-texl1{
+    font-size: 20px; 
+    position: absolute;
+    top: 1755px;
+    left: 600px;
+    width: 400px;
+}
+.footer-pic2{
+    position: absolute;
+    top: 1770px;
+    left: 700px;
+}
+.footer-texl2{
+    font-size: 20px; 
+    position: absolute;
+    top: 1750px;
+    left: 750px;
+    width: 400px;
+}
+.text5{
+    position: absolute;
+    border-radius: 2px;
+    border: solid red 1px;
+    top: 1755px;
+    left: 1000px;
+    width: 100px;
+    height: 25px;
+    background: red;
+    color: whitesmoke;
+}
+.footer-bottom{
+    background: whitesmoke;
+    max-width: 1440px;
+    height: 1000px;
+
+}
+.logo2{
+    position: absolute;
+    top: 1800px;
+    left: 100px;
+    width: 156px;
+    height: 86px;
+}
+.tyli1{
+    position: absolute;
+    top: 1800px;
+    left: 300px;
 }
